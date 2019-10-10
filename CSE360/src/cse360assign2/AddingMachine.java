@@ -8,7 +8,9 @@ public class AddingMachine {
 	private String record;
 
 	/**
-	 *To use, simple enter values in the format: [Operation][Integer], for example, to do + 5, enter "+5" without the "". Use the following commands:
+	 *To use, simple enter values in the format: [Operation][Integer], for example, to do + 5, enter "+5" without the "".
+	 *If desired, add by [char] value. Code will transform char to its int val.
+	 * Use the following commands:
 	 *+ [int] for add operation
 	 *- [int] for subtract operation
 	 *P to print record
